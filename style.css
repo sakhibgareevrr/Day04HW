@@ -1,0 +1,52 @@
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+h3 {
+    color: black;
+    text-shadow: 1px 1px rgb(235, 247, 0);
+    font-weight: bold;
+}
+
+.backgroundImage {
+
+
+    background-image: url("cat_engine.png");
+    filter: alpha(Opacity=90);
+    opacity: 0.95;
+}
+
+input:hover {
+    background-color: lightgray !important;
+}
+
+input[type=text], input[type=password] {
+    background-color: rgba(253, 254, 241, 0.41);
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    color: rgb(229, 231, 203);
+    font-size: 18px;
+    text-shadow: 1px 1px rgb(54, 55, 42);
+}
+.dropdown-menu {
+    width:100%;
+}
+button {
+    opacity: 0.65;
+    }
+
+li {
+    color:black;
+}
+
+blockquote {
+    background-color: rgba(167, 166, 146, 0.74);
+    color:black;
+}
+.btn {
+    color:black;
+    font-weight: bold;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <script src="app.js" charset="utf-8">   </script>
+    <!--Our CSS file goes here-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <!--Registration of New User-->
+        <div class="row">
+            <div class="col-md-12 backgroundImage">
+                <h3 style="text-align:center">Select your CAT vehicle</h3>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-2">
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text" id="first" class="form-control edinput" placeholder="First Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" id="last" class="form-control edinput" placeholder="Last Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" id="email" class="form-control edinput" placeholder="Email"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Select vehicle type</label>
+                            <div class="btn-group btn-block">
+                              <button id="vehicleb" type="button " class="btn btn-default btn-block dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Vehicle <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu ">
+                                <li><a id="dozers">Dozers</a></li>
+                                <li><a  id="excavators" >Excavators</a></li>
+                                <li ><a id="pipelayers">Pipelayers</a></li>
+                                <li ><a id="trucks">Trucks</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Select engine model</label>
+                            <div class="btn-group btn-block">
+                              <button id="engineModelb" type="button" class="btn btn-block btn-default dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Engine <span class="caret"></span>
+                              </button>
+                              <ul id="engineModel" class="dropdown-menu ">
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Select power, hp</label>
+                            <div class="btn-group btn-block">
+                              <button id="powerb" type="button" class="btn btn-block btn-default dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Power <span class="caret"></span>
+                              </button>
+                              <ul id="power" class="dropdown-menu ">
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Select operating capacity, lb</label>
+                            <div class="btn-group btn-block">
+                              <button id="capacityb" type="button" class="btn btn-block btn-default dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Capacity <span class="caret"></span>
+                              </button>
+                              <ul id="capacity" class="dropdown-menu ">
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Select <span id="addProperty"> </span></label>
+                            <div class="btn-group btn-block">
+                              <button id="addParameterb" type="button" class="btn btn-block btn-default dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Parameter <span class="caret"></span>
+                              </button>
+                              <ul id="addParameter" class="dropdown-menu ">
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input id="placeOrder" type="button" class="btn btn-block btn-default"  value="Place Order" />
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 form-group">
+                        <div id="orderDisplay">
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
